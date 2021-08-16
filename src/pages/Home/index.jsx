@@ -6,7 +6,7 @@ import MaterialIcon from '@material/react-material-icon';
 
 import logo from '../../assets/logo.svg';
 import restaurante from '../../assets/restaurante-fake.png';
-import { Card, RestaurantCard, Modal } from '../../components';
+import { Card, RestaurantCard, Modal, Map } from '../../components';
 
 import { Container, Search, Logo, Wrapper, CarouselTitle, Carousel } from './styles';
 
@@ -25,6 +25,7 @@ const Home = ()=> {
       };
 return (
 <Wrapper>
+   
     <Container>
         <Search>
             <Logo src={logo} alt="logo do Restaurante"/>
@@ -49,7 +50,8 @@ return (
         </Search>
         <RestaurantCard></RestaurantCard>
     </Container>
-    <Modal open={modalOpened} onClose={() => setModalOpened(!modalOpened)}></Modal>
+    <Map/>
+   {/* <Modal open={modalOpened} onClose={() => setModalOpened(!modalOpened)}></Modal>*/}
 </Wrapper>
 
 

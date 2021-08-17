@@ -66,3 +66,4 @@ This section has moved here: https://facebook.github.io/create-react-app/docs/de
 ### `yarn build` fails to minify
 
 This section has moved here: https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify
+Sistema desenvolvido no módulo da DIO. Sistema web de busca de restaurantes, parecido com o serviço que o Google oferece. esse buscador foi desenvolvido utilizando as tecnologia React.JS e API do Google.
